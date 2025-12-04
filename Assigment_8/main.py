@@ -8,8 +8,7 @@ user_input = input("Enter a number (Either integer or a hex starting with 0x for
 # 1. Detect type of the number:
 num_type = detect_number_type(user_input)
 print(f"You entered a(n) {num_type} number.")
-if num_type == "hex":
-    print(f"The hexadecimal number is: {user_input}")
+ 
 # 2. Convert to binary
 binary_value = convert_to_binary(user_input)
 print(f"Binary representation: {binary_value}")
