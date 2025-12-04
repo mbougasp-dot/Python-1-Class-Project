@@ -11,4 +11,6 @@ def main():
     num_type = detect_number_type(user_input)
     print(f"You entered a(n) {num_type} number.")
     
-    if num_
+    if num_type == "hex":
+        print(f"The hexadecimal number you have entered is : {user_input}")
+        
