@@ -19,4 +19,6 @@ def main():
     print(f"The number in binary representation is : {binary_value} ")
     
     #At this stage let's check if everything is working fine by running the main function.
+    #First Error detected while running the program.
+    
     
