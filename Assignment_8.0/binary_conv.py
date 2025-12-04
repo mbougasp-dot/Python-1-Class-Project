@@ -5,3 +5,4 @@ from type_input import detect_number_type
 ### Now let's define our function to convert the number entered by the user to binary.
 def convert_to_binary(num_str):
     """convert either integer or hex string to binary Instruction code !!."""
+    number_type = detect_number-type(num_str)
