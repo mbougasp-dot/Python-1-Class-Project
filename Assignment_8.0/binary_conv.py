@@ -14,7 +14,4 @@ def convert_to_binary(num_str):
     else:
         # Convert normal integer string to integer
         number = int(num_str)
-        print(f"The number entered is {number} and his type is Integer")   
-        
-        #returns binary string like '0b1010'
-        return bin(number)[2:]  # Strip the '0b' prefix
+    return bin(number) # Strip the '0b' prefix

@@ -12,4 +12,6 @@ def convert_to_binary(num_str):
         print(f"The number entered is {number} and his type is Integer") 
         
         # returns binary string like '0b1010'
-        return bin(number)[2:]  # Strip the '0b' prefix
+    return bin(number) # Strip the '0b' prefix
+# Hint: Be careful with the indentation of the return statement !!!!
+# That is why my code was not working before.
