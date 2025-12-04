@@ -4,4 +4,6 @@ from binary_conv import convert_to_binary
 from type_input import detect_number_type
 ### Now let's create the main function to execute the program.
 def main():
+    """Main function to execute the binary conversion program, handling the user's input. """
+    user_input = input("Enter a Integer of Hexadecimal number (using a prefix 0x or 0X for the hexadecimal value)")
     
