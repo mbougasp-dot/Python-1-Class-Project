@@ -11,4 +11,4 @@ def convert_to_binary(num_str):
         # Convert hex (base 16) to integer, then to binary
         number = int(num_str, 16)
         # Don't forget the 16, and then return the first result after the first instruction is proceeded.
-        return bin(number)
+        return bin(number) 
