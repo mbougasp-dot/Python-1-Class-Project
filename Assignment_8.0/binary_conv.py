@@ -7,4 +7,6 @@ def convert_to_binary(num_str):
     """convert either integer or hex string to binary Instruction code !!."""
     number_type = detect_number_type(num_str)
     
-    if number_type == "
+    if number_type == "hex":
+        # Convert hex (base 16) to integer, then to binary
+        number-type = int(num_str)
