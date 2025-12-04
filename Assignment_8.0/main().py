@@ -18,3 +18,5 @@ def main():
     binary_value = convert_to_binary(user_input)
     print(f"The number in binary representation is : {binary_value} ")
     
+    #At this stage let's check if everything is working fine by running the main function.
+    
