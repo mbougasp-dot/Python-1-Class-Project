@@ -15,3 +15,5 @@ def convert_to_binary(num_str):
         # Convert normal integer string to integer
         number = int(num_str)
     return bin(number) # Strip the '0b' prefix
+# Hint: Be careful with the indentation of the return statement !!!!
+# That is why my code was not working before.
