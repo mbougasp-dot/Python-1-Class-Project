@@ -13,5 +13,8 @@ def convert_to_binary(num_str):
         # Don't forget the 16, and then return the first result after the first instruction is proceeded.
     else:
         # Convert normal integer string to integer
+        number = int(num_str)
+        print(f"The number entered is {number} and his type is Integer")   
+        
         return bin(number) 
     
