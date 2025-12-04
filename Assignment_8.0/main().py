@@ -14,3 +14,7 @@ def main():
     if num_type == "hex":
         print(f"The hexadecimal number you have entered is : {user_input}")
         
+    #2. Convert to binary
+    binary_value = convert_to_binary(user_input)
+    print(f"The number in binary representation is : {binary_value} ")
+    
