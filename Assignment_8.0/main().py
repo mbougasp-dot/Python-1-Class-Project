@@ -7,3 +7,8 @@ def main():
     """Main function to execute the binary conversion program, handling the user's input. """
     user_input = input("Enter a Integer of Hexadecimal number (using a prefix 0x or 0X for the hexadecimal value)")
     
+    #1. Detect the type of number entered by the user.
+    num_type = detect_number_type(user_input)
+    print(f"You entered a(n) {num_type} number.")
+    
+    if num_
